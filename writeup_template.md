@@ -139,18 +139,31 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 5 as evidenced by the validation error increasing after 5 epochs: 
 
 Epoch 1/7
+
 201/201 [==============================] - 106s 526ms/step - loss: 0.0116 - val_loss: 0.0109
+
 Epoch 2/7
+
 201/201 [==============================] - 78s 386ms/step - loss: 0.0102 - val_loss: 0.0102
+
 Epoch 3/7
+
 201/201 [==============================] - 78s 389ms/step - loss: 0.0099 - val_loss: 0.0102
+
 Epoch 4/7
+
 201/201 [==============================] - 78s 389ms/step - loss: 0.0099 - val_loss: 0.0101
+
 Epoch 5/7
+
 201/201 [==============================] - 78s 390ms/step - loss: 0.0098 - val_loss: 0.0100
+
 Epoch 6/7
+
 201/201 [==============================] - 79s 391ms/step - loss: 0.0096 - val_loss: 0.0101
+
 Epoch 7/7
+
 201/201 [==============================] - 79s 394ms/step - loss: 0.0096 - val_loss: 0.0104
 
 I used an adam optimizer so that manually training the learning rate wasn't necessary.
